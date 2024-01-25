@@ -12,7 +12,7 @@ const Product = () => {
     useEffect(()=>{
       // console.log("fello");
       async function getData(){
-        let {data}=await axios.get(`/products/${id}`)
+        let {data}=await axios.get(`https://fakestoreapi.com/products/${id}`)
   
         setProducts(data)
         console.log(product);
