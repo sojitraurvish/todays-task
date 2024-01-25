@@ -12,7 +12,7 @@ const ProductCard = ({item}) => {
         </MainImg>
 
         <Discription>
-            <div>{item.title.substring(0,22)}...</div>
+            <div>{item.title.substring(0,20)}...</div>
             <Rating 
                 value={item.rating.rate} 
                 text={`(${item.rating.count}) reviews`} 
