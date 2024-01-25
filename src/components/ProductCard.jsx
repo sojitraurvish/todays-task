@@ -12,7 +12,7 @@ const ProductCard = ({item}) => {
         </MainImg>
 
         <Discription>
-            <div>{item.title.substring(0,20)}...</div>
+            <div>{item.title.substring(0,17)}...</div>
             <Rating
                 value={item.rating.rate} 
                 text={`(${item.rating.count}) reviews`} 
@@ -85,8 +85,10 @@ const Discription=styled.div`
     /* margin-right: 10px; */
     width: 100%;
     height: 100%;
-    /* border:2px solid red; */
-    &:nth-child(1){}
+    &:nth-child(1){
+      /* border:2px solid red; */
+      /* overflow: hidden; */
+    }
     &:nth-child(2){
             display: flex;
             flex-direction: row;
