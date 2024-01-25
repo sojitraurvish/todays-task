@@ -15,10 +15,10 @@ const Product = () => {
         let {data}=await axios.get(`https://fakestoreapi.com/products/${id}`)
   
         setProducts(data)
-        console.log(product);
+        // console.log(product);
       }
       getData()
-    },[id,product])
+    },[id])
 
 
   return (
