@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route index path='/products' element={<Products/>}/>
+        <Route index path='/' element={<Products/>}/>
         <Route path='/product/:id' element={<Product/>}/>
       </Routes>
     </div>
