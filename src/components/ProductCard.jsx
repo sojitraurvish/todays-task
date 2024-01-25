@@ -41,7 +41,7 @@ const Card=styled(Link)`
 
     cursor:pointer;
     transition:all 1s ease 0s;
-    box-shadow:rgb(0 0 0 / 69%) 0px 26px 30px -10px,rgb(0 0 0 / 73%) 0px 16px 10px -10px; 
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     border:2px solid rgba(249,249,249,0.1);
     border-radius:10px;
     /* border:1px solid red; */
