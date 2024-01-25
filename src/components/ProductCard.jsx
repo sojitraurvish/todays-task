@@ -46,6 +46,10 @@ const Card=styled(Link)`
     border-radius:10px;
     /* border:1px solid red; */
 
+    &:hover{
+    border-color:black;
+        transform:scale(1.05);
+    }
 `
 
 const MainImg=styled.div`
