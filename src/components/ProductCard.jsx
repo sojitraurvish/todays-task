@@ -13,7 +13,7 @@ const ProductCard = ({item}) => {
 
         <Discription>
             <div>{item.title.substring(0,20)}...</div>
-            <Rating 
+            <Rating
                 value={item.rating.rate} 
                 text={`(${item.rating.count}) reviews`} 
                 color="red"    
@@ -51,7 +51,7 @@ const Card=styled(Link)`
 const MainImg=styled.div`
   /* border: 2px solid red; */
   width:99%;
-  height: 80%;
+  height: 78%;
   height:78%;
 width: 100%;
 overflow:hidden;
@@ -68,7 +68,7 @@ position :relative ;
   `
 
 const Discription=styled.div`
-  height: 20%;
+  height: 25%;
   /* border: 2px solid black; */
   overflow: hidden;
   text-overflow: ellipsis;
